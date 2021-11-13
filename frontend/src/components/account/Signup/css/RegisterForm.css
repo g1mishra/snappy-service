@@ -1,0 +1,100 @@
+
+.register-form {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    padding: 0 3% !important;
+    padding-bottom: 3% !important;
+}
+.register-form .toggle-bar{
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 1em !important;
+  align-items: center !important;
+}
+.register-heading{
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  margin: 0;
+  padding: .5em 0 !important;
+  color: white !important;
+  text-transform: capitalize;
+}
+.register-form .toggle-register{
+  color:white !important;
+  display: block;
+  margin: auto;
+}
+.toggle-register .active,
+.toggle-register .active:hover {
+  color: #fff !important;
+  background: #3931af !important;
+}
+.toggle-register button:hover{
+  background: #fff !important;
+}
+
+.register-left-right{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.register-left{
+  text-align: center;
+  color: #fff;
+  width: 330px;
+  margin-top: 9rem;
+  display: block;
+}
+  .register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+  }
+  @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+  }
+  .register-left p{
+    font-weight: lighter;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register-left button{
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    font-size: 15px;
+  }
+
+@media screen and (max-width:765px){
+  .register-left-right{
+    flex-direction: column-reverse;
+  }
+  .register-left{
+    padding: 0;
+    margin: 0 auto;
+    width: 350px;
+
+  }
+}
+@media screen and (max-width:475px){
+  #form-submit{
+    margin-bottom: 0;
+  }
+  .register-form .form{
+    width: 100% !important;
+    padding: 1rem 0 !important;
+  }
+  .register-left{
+    width: 100%;
+  }
+}

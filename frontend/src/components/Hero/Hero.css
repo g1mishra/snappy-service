@@ -1,0 +1,119 @@
+/* Hero */
+.defaultHero,.plumberHero,.customerHero,.painterHero,.labourHero,.servicesHero,
+.servicesHero-1,.errorHero,.proHero
+{
+  position: relative;
+  background: url("../../images/heroImage/electric.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  min-height: 95vh;
+  max-height: 95vh;
+}
+.proHero{
+  background: url("../../images/heroImage/prof.jpg") center/cover no-repeat;
+}
+.proHero .banner div{
+  width: 15rem;
+}
+.electricHero {
+  background: url("../../images/heroImage/electric.jpg") center/cover no-repeat;
+}
+.customerHero{
+  background: url("../../images/heroImage/customer.jpg") center/cover no-repeat;
+}
+.painterHero{
+  background:url("../../images/heroImage/painter.jpg") center/cover no-repeat;
+
+}
+.labourHero{
+  background:url("../../images/heroImage/Labour.jpg") center/cover no-repeat;
+}
+.servicesHero{
+  background:url("../../images/heroImage/allServices.jpg") center/cover no-repeat;
+}
+.servicesHero-1{
+  background:url("../../images/heroImage/services.jpeg") center/cover no-repeat;
+}
+.errorHero{
+  opacity:1;
+  background:url("../../images/heroImage/error.jpg") center/cover no-repeat;
+}
+@media screen and (max-width: 476px) {
+  .defaultHero,.errorHero,.customerHero,.painterHero,.labourHero,.servicesHero,.proHero{
+    min-height: 95vh;
+  }
+  .carousel-control-next,
+  .carousel-control-next:hover{
+    top:-55px;
+    opacity: 0;
+    right: 0px;
+  }
+  .carousel-control-prev,
+  .carousel-control-prev:hover{
+    top:-55px;
+    opacity: 0;
+    left: 0px;
+  }
+}
+/* End of Hero */
+
+/* Banner */
+
+.banner {
+display: inline-block;
+background: rgba(0, 0, 0, 0.9);
+/* background: rgba(239, 241, 237, 0.774); */
+color: var(--mainWhite);
+padding: 1.5rem;
+text-align: center;
+text-transform: capitalize;
+letter-spacing: var(--mainSpacing);
+margin: 0 10px;
+}
+.banner > *{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+              
+}
+.banner h1 {
+font-size: 2rem;
+line-height: 2.5rem;
+}
+.banner .uline {
+width: 15rem;
+height: 5px;
+background: #f2711c;
+margin: 1rem auto;
+}
+.banner p {
+width: 90%;
+margin: auto;
+font-size: 1rem;
+margin-bottom: 2rem;
+}
+@media screen and (min-width: 576px) {
+.banner {
+  padding: 2rem 3rem;
+}
+.banner h1 {
+  font-size: 2.7rem;
+}
+.banner p{
+  font-size: 1.3rem;
+}
+}
+@media screen and (max-width: 576px) {
+  .banner div{
+    width: 40vw !important;
+  }
+}
+@media screen and (min-width: 992px) {
+.banner {
+  padding: 2rem 6rem;
+}
+.banner h1 {
+  font-size: 4rem;
+}
+}

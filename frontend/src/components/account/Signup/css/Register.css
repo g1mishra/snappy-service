@@ -1,0 +1,146 @@
+/*Start Regiser.js Css */
+
+.all-register{
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background: #ff6035;
+} 
+.all-register .section-title h4{
+  color: #000000d7;
+  font-size: 36px !important;
+  opacity: 0.9;
+  color: white !important;
+
+}
+.all-register .section-title div{
+  display: none;
+}
+.all-register .register_container{
+  display: flex;
+}
+.container_1 ,.container_2 {
+  padding: 4rem;
+}
+.all-register .container_1{
+  background:#152029;
+  flex: 1;
+}
+.all-register .or{
+  background: linear-gradient(90deg ,#152029 50% ,#3d3224 50%);
+  color: black;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.all-register .or p{
+  font-family: 'Merriweather Sans', ;
+  font-size: 16px;
+  border-radius: 50%;
+  background: white;
+  font-weight: bold;
+  padding: 1rem;
+  border: 7px solid #152029;
+}
+.all-register .container_2{
+  background:#3d3224;
+  flex: 1;
+}
+.all-register .container_2 p,.all-register .container_1 p{
+  font-family: 'Merriweather Sans'   ;
+  color: white;
+  font-size: 16px;
+  opacity: 0.7;
+  padding: 0.5rem 0;
+}
+.register_title{
+  text-transform: uppercase;
+  font-size: 26px;
+  color: white;
+  font-weight: bolder;
+  opacity: 0.9;
+  font-family: 'Heebo',"Lato";
+}
+
+@media screen and (max-width:991px){
+  .all-register header.defaultHero{
+    display: flex;
+  }
+  .all-register .register_container{
+    flex-direction: column;
+  }
+  .all-register .or{
+    background: linear-gradient(180deg ,#152029 50% ,#3d3224 50%);
+    flex-direction: column;
+  }
+  .container_1 ,.container_2 {
+    padding: 2rem 6rem;
+  }
+}
+@media screen and (max-width:762px){
+  .container_1 ,.container_2 {
+    padding: 2rem;
+  }
+  .all-register .container_2 p,.all-register .container_1 p{
+    font-size: 15px;
+    opacity: 0.7;
+    padding: 0;
+    word-wrap: break-word;
+  }
+}
+@media screen and (max-width:442px){
+  .all-register{
+    padding: 0;
+  }
+  .container_1 ,.container_2 {
+    padding: 2rem 5px;
+  }
+  .all-register .container_2 p,.all-register .container_1 p{
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: center;
+    padding: 0;
+    
+  }
+  .all-register .section-title{
+    display: none;
+  }
+}
+/* End Register.js css  */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Sans'), local('MerriweatherSans-Regular'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX7QjX78w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Sans'), local('MerriweatherSans-Regular'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX1QjU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* hebrew */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Heebo'), local('Heebo-Regular'), url(https://fonts.gstatic.com/s/heebo/v5/NGS6v5_NC0k9P9H0TbFzsQ.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin */
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Heebo'), local('Heebo-Regular'), url(https://fonts.gstatic.com/s/heebo/v5/NGS6v5_NC0k9P9H2TbE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

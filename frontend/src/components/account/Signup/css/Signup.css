@@ -1,0 +1,117 @@
+.register-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+.register-right .form {
+    width: 400px;
+    padding: 1rem;
+}
+
+.register-right p {
+    color: white;
+    padding: 5px 10px;
+    background-color: #bf1650;
+}
+
+.register-right p::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+.register-right input,
+.register-right select{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.register-right label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+button[type="submit"],
+.register-right input[type="submit"] {
+    background: #ec5990;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+button[type="submit"]:hover,
+.register-right input[type="submit"]:hover {
+    background: #bf1650;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+.register-right input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+}
+
+.register-right input:disabled,
+.register-right select:disabled{
+    opacity: 0.4;
+}
+
+.register-right input[type="button"]:hover {
+    transition: 0.3s all;
+}
+
+button[type="submit"],
+input[type="button"],
+.register-right input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+/* .register-right .App {
+    max-width: 600px;
+    margin: 0 auto;
+} */
+
+.register-right button[type="button"] {
+    display: block;
+    appearance: none;
+    background: #333;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.register-right hr {
+    margin-top: 30px;
+}
+
+/* .register-right button {
+    display: block;
+    appearance: none;
+    margin-top: 40px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+} */
+

@@ -1,0 +1,242 @@
+.profile-background{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background: -webkit-linear-gradient(left, #3931af, #00c6ff) !important;
+}
+.profile{
+	border-radius: 0.5rem;
+	.profile-head{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px;
+		margin-bottom: 15px;
+		.profile-head-info{
+			display: flex;
+			width: 500px;
+			background: #f1f0efe1;
+			border-radius: 0 70px;
+			box-shadow: 0 0 10px 10px #0000006b;
+			color: rgba(22, 12, 12, 0.753);
+			padding: 2em 6rem;
+			flex-direction: column;
+			align-items: center;
+			h2{
+				font-size: 35px;
+				margin: 10px 0;
+			}
+			h6{
+				font-size: 18px;
+				font-weight: 500;
+			}
+			#caption {
+				position: relative;
+				height: 220px;
+				width: 230px;
+				border-radius: 50%;
+				overflow: hidden;
+				box-shadow: 0 0 5px 2px gray;
+			}
+			#caption .text {
+				position: absolute;		
+				top: 80%;
+				left: 10%;
+				right: 10%;
+				text-align: center;
+				z-index: 2;
+				opacity: 0;
+				transition: all 0.8s ease;			
+			}
+			#caption .text h1 {		
+				margin: 0;		
+				font-size: 18px;
+				background: #000;
+				padding: 5px;
+				color: white;
+			
+			}
+			#caption:hover .text {
+				opacity: 1;
+				
+			}
+			#caption:hover img {
+				-webkit-filter: opacity(80%);
+				filter: opacity(80%) ;
+			}
+			.profile-img{
+				height: 100%;
+				width: 100%;
+				border-radius: 50%;
+			}
+			.profile-img:hover{
+				cursor: pointer;
+			}
+			.profile-logout{
+				display: flex;
+				width: 200px !important;
+				justify-content: space-around;
+			}
+		}
+	
+	}
+	.profile-body{
+		width: 600px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 15px;
+		padding: 2em 0;		
+		background: rgb(240, 235, 235);
+		div{
+			display: flex;
+			flex-wrap: wrap;
+			width: 450px;
+			font-size: 20px;
+			align-items: center;
+			margin-bottom: 5px;
+			label{
+				width: 130px;
+				margin-bottom: 0;
+			}
+			h5{
+				width: 5px;
+				margin: 0;
+			}
+			.input-type,input,select{
+				width: 60%;
+				margin-left: 30px;
+				color: rgba(22, 12, 12, 0.856);
+				padding: 2px 10px;
+			}
+			input.disable,
+			select.disable{
+				border: none;
+				background : transparent;
+			}
+			p.error{
+				display: block;
+				color: white;
+				width: 100%;
+				margin: 5px 0;
+				margin-right: 16px;
+				padding: 2px 10px;
+				background-color: #bf1650;
+			}
+			
+			p.error::before {
+				display: inline;
+				content: "⚠ ";
+			}
+		}
+	}
+}
+@media screen and (max-width:768px){
+	.profile{
+		border-radius: 0.5rem;
+		.profile-head{
+			.profile-head-info{
+				width: 90%;
+				h2{
+					font-size: 30px;
+					margin: 10px 0;
+					color: black;
+				}
+			}
+		}
+		.profile-body{
+			width: 450px;
+			div{
+				width: 400px;
+				font-size: 18px;
+				label{
+					width: 120px;
+					margin-bottom: 0;
+				}
+				h5{
+					width: 5px;
+					margin: 0;
+				}
+				.input-type,input,select{
+					width: 58%;
+					margin-left: 30px;
+					color: rgba(22, 12, 12, 0.856);
+					padding: 2px 10px;
+				}
+
+			}
+		}
+
+	}
+}
+@media screen and (max-width:488px){
+.profile{
+	.profile-head-info{
+		width: 80%;
+		margin-top: 30px !important;
+		padding: 1rem;
+		h2{
+			font-size: 25px !important;
+			margin: 10px 0;
+			text-align: center !important;
+			color: black;
+			width: 200px !important;
+		}
+	}
+	// .profile-body{
+	// 	display: none !important;
+	// }
+	.profile-body{
+		width: 360px;
+		div{
+			width: 320px;
+			font-size: 17px;
+			label{
+				width: 100px;
+				margin-bottom: 0;
+			}
+			h5{
+				width: 5px;
+				margin: 0;
+			}
+			.input-type,input,select{
+				width: 60%;
+				margin-left: 20px;
+				color: rgba(22, 12, 12, 0.856);
+				padding: 2px 10px;
+			}
+
+		}
+	}
+
+}
+}
+
+
+@media screen and (max-width:388px){
+	.profile{
+		.profile-body{
+			width: 90%;
+			div{
+				width: 90%;
+				font-size: 14px;
+				label{
+					width: 80px;
+					margin-bottom: 0;
+				}
+				h5{
+					width: 5px;
+					margin: 0;
+				}
+				.input-type,input,select{
+					width: 55%;
+					margin-left: 20px;
+					color: rgba(22, 12, 12, 0.856);
+					padding: 2px 10px;
+				}
+	
+			}
+		}
+	
+	}
+}

@@ -1,0 +1,73 @@
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#Services {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+/* #Services .cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+#Services .card {
+    border: none;
+    background: #ffffff;
+}
+.frontside {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/*  */
+
+
+
+.frontside .card .card-title{
+    color: #007b5e !important;
+    font-size: 20px;
+}
+.frontside .card .card-text{
+   max-height: 80px;
+   min-height: 80px;
+   display: flex;
+   align-items: center;
+}
+.frontside .card .card-body img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+@media (min-width:991px){
+    .frontside .card .card-text{
+       font-size: 17px;
+     }
+}
+@media (max-width:575px){
+    .frontside .card .card-text{
+        font-size: 1.1rem;
+        margin: auto;
+     }
+}

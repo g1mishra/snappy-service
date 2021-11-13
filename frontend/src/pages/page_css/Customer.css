@@ -1,0 +1,204 @@
+.customer {
+    background: #e5e5e5;
+}
+
+.customer .banner p{
+    font-size: 1.8rem;
+}
+.customer-heading .para{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px !important;
+    font-size: 20px;
+    opacity: 0.8;
+    text-align: center;
+}
+.customer-heading  h1{
+    opacity: 0.8;
+}
+.customer-heading .btn,
+.second-container .btn
+{
+    font-size: 20px;
+    background: #000;
+    opacity: 0.9;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.customer-heading .btn:hover,
+.second-container .btn:hover{
+    background: #fff;
+    color: #000;
+    opacity: 0.7;
+}
+.customer .second-container{
+    width: 100%;    
+    background: #e5e5e5;
+}
+
+.second-container .para{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px !important;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.gallery_box li{ 
+    min-width: 33.3333%;
+    max-width: 33.3333%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    list-style: none;
+}
+.gallery_box{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{
+    -webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    display: block;
+    width: auto;
+    max-height: 291.333px;
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(8, 8, 8, 0.288) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box .box_data{ 
+    position:absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    display: block;
+}
+.gallery_box .box_data span{ 
+    position:absolute;
+    display:none;
+    color:rgb(255, 255, 255);
+    top: 50%;
+    transform: translateY(-50%);
+    left:0 ;
+    right:0;
+    font-size:26px;
+    background-color: transparent !important;
+}
+.gallery_box li:hover .box_data,.gallery_box li:hover .box_data span{ 
+    background:rgba(255,0,39,0.75);
+    display: block;
+}
+
+@media (max-width:991px){
+    .customer-heading .para{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px !important;
+        font-size: 19px;
+        padding: 0 !important;
+    }
+    .second-container .para{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px !important;
+        padding-top: 20px;
+        font-size: 19px;
+        opacity: 0.8;
+    }
+    .gallery_box li{ 
+        min-width: 50%;
+        max-width: 50%;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        list-style: none;
+    }
+    
+}
+@media (max-width:768px){
+    .customer-heading{
+        padding: 0 !important;
+    }
+    .customer-heading .para{
+        width: 100%;
+        margin: auto;
+        font-size: 17px;
+        padding: 0 5px !important;
+    }
+    .second-container .para{
+        width: 100%;
+        font-size: 18px;
+        opacity: 0.8;
+    }
+    .second-container h1,.customer-heading h1{
+        font-size: 30px !important;
+    }
+    .gallery_box li{ 
+        min-width: 100%;
+        max-width: 100%;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    }
+    .gallery_box li:last-child{
+        border-bottom:none;
+    }
+    .gallery_box{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width:575px){
+    .customer .customerHero {
+        min-height: 90vh !important;
+        max-height: 90vh !important;
+    }
+    .customer .banner p{
+        font-size: 1.3rem ;
+    }
+    .customer .row{
+        margin: 0;
+        padding: 0;
+    }
+    .gallery_box{
+        width: 100%;
+        margin: auto;
+    }
+    .gallery_box li img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .customer-heading .para{
+        width: 95% ;
+        margin: auto;
+        font-size: 16px;
+        padding: 0!important;
+        text-align: justify;
+    }
+    .second-container .para{
+        width: 95% ;
+        margin: auto;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .second-container h1,.customer-heading h1{
+        font-size: 26px !important;
+        width: 100% !important;
+        opacity: 0.8 !important;
+    }
+
+}

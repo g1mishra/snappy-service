@@ -1,0 +1,144 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPecZTIAOhVxoMyOr9n_E7fdM3mDbRS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+*:focus{
+  outline: none;
+}
+div.sidebar-hidden{
+  box-sizing:border-box;
+  display:none !important;
+}
+nav{
+  margin :0 !important;
+  padding:0 !important;
+  height: 55px;
+}
+.ui[class*="top fixed"].menu{
+    background:#460845 !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size:20px;
+    text-transform:capitalize;
+    font: weight bold;
+    color:white !important;
+}
+.ui.inverted.menu .item{
+  padding:10px 20px;
+  margin:0 0 0 15px;
+	border-radius: .3em !important;
+  font-family : poppins;
+}
+
+.ui.header {
+  font-family: 'Titillium Web', sans-serif;
+  color:#fff;
+  text-decoration:none;
+  font-size:2.5rem !important;
+  font-weight: bolder;
+}
+.ui.menu.fixed .item:first-child, .ui.menu.fixed .item:last-child {
+	border-radius: .3em !important;
+}
+#logo{
+   margin :0 !important;
+  padding:0 !important;
+}
+#toggler-container{
+    margin :0 !important;
+    padding:0 !important;
+    padding-left : 10px !important;
+}
+#toggler-container:hover{
+  background: transparent;
+}
+#toggler-container .ui.header {
+  margin:0 !important;
+  padding-left : 15px !important;
+
+}
+#sidebar-toggler{
+  display: flex;
+  justify-content: space-between;
+  margin :0 !important;
+  padding:5px 10px !important;
+}
+#sidebar-toggler .ui.header,
+#sidebar-toggler i.icon
+{
+  margin:0;
+  padding: 0;
+}
+
+div.sidebar-show{
+  display:block;
+  height: 100vh !important;
+  width: 100%;
+  background:#521751 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+  overflow-y: scroll;
+}
+
+div.sidebar-show .sidebar-navlinks{
+  display : flex !important;
+  flex-direction:column;
+  align-items:center; 
+}
+.sidebar-show div.right.menu.sidebar-navlinks a.item,
+.ui.menu.fixed div.sidebar-show .item:first-child{
+  margin-top:10px !important;
+  padding : 12px 25px !important;
+  border-radius:1em !important;
+  font-size:1.7rem;
+}
+div.sidebar-show div.right.menu.sidebar-navlinks a.item.active,
+div.sidebar-show div.right.menu.sidebar-navlinks a.item:hover{
+  color:#521751 !important;
+  background:white !important;
+}
+.btn-group{
+  display : flex !important;
+  width: 100%;
+  align-items:center; 
+  justify-content: center;
+}
+.btn-group .item{
+  display: block !important;
+
+}
+/* #sidebar-toggler .icon{
+  cursor : pointer !important;
+} */

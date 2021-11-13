@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Anshu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Anshu\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Anshu\Downloads\cmder\bin;C:\Users\Anshu\Downloads\cmder\vendor\bin;C:\Users\Anshu\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Anshu\Downloads\cmder\vendor\conemu-maximus5;C:\Users\Anshu\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Anshu\.poetry\bin;C:\Users\Anshu\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Anshu\AppData\Local\Programs\Python\Python38\;C:\Users\Anshu\AppData\Local\Microsoft\WindowsApps;C:\Users\Anshu\AppData\Roaming\npm;C:\Users\Anshu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Anshu\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\Anshu\Downloads\cmder\vendor\git-for-windows\cmd;C:\Users\Anshu\Downloads\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\Anshu\Downloads\cmder\vendor\git-for-windows\usr\bin;C:\Users\Anshu\Downloads\cmder
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Anshu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141292:19)
+      at Object.onceWrapper (events.js:312:28)
+      at ClientRequest.emit (events.js:223:5)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:312:28)
+      at TLSSocket.emit (events.js:223:5)
+      at TLSSocket.Socket._onTimeout (net.js:474:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "gui",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.4.0",
+      "@testing-library/user-event": "^7.2.1",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-icons": "^3.9.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "3.3.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
