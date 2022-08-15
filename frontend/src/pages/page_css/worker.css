@@ -1,9 +1,6 @@
 .pro_worker{
     background: white;
-    /* background: rgba(40, 109, 77, 0.87); */
-    background:#f2711c ;
-    color: white;
-
+    background: #eee;
 }
 .pro_worker .heading h1,.pro_worker .heading h2{
     width: 70%;
@@ -21,13 +18,9 @@
     font-size: 28px;
 }
 .pro_worker .why-we {
-    box-shadow: 0 0 10px 3px #0e0000bd;
     border-radius: 20px 20px 0 0;
     padding: 15px 50px;
-    /* color: white; */
-    color: #f2711c;
     background: #fff;
-
 }
 .pro_worker .why-we h1{
     width: 70%;
@@ -63,7 +56,6 @@
 .why_we_step .img_side_txt p{
     font-size: 18px;
     opacity: 0.7;
-    color: black;
     font-family: sans-serif;
 }
 .img_side_txt.to_show{

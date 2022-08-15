@@ -43,7 +43,7 @@ function Footer() {
             </Container>
                 <Row className="copy-right">
                     <Col md={12}>                    
-                        <p className="h6">Snappy &copy; 2020. developed by <a href="https://www.linkedin.com/in/jeevan-kumar-618a95153" className="text-dark">Jeevan</a></p>
+                        <p className="h6">Snappy &copy; 2020. developed by <a href="https://www.linkedin.com/in/g1mishra" className="">Jeevan</a></p>
                     </Col>  
                 </Row>
         </footer>
