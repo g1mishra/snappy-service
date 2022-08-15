@@ -61,7 +61,7 @@ function Worker(){
             <div className="p-3 pt-4 text-center last_div">
               <h1>So, What are you looking for ?</h1>
               <h2>Sign-up now to start getting jobs and making money. Always free. It’s that simple. </h2>
-              <Button as={Link} to="/signup" onClick={()=>dispatch(workerSignup()) } style={{background:"#fff",color:"#f2711c",fontSize:"16px"}}>
+              <Button as={Link} to="/signup" onClick={()=>dispatch(workerSignup()) } style={{background:"#fff",color:"#007b5e",fontSize:"16px"}}>
                 Signup Now
               </Button>
             </div>

@@ -19,7 +19,7 @@
 .aboutus-section .aboutus div{
     width: 170px;
     height: 2px;
-    background: #fdb801;
+    background: #007b5e;
     margin: 0 0 30px;
 }
 
@@ -30,15 +30,15 @@
 }
 .aboutus-section a:hover,.aboutus-section  a:active {
     color: #fff;
-    background: #fdb801;
+    background: #007b5e;
     text-decoration: none;
     outline: 0;
     font-weight: 500;
 }
 .aboutus-section .aboutus-more {
-    border: 1px solid #fdb801;
+    border: 1px solid #007b5e;
     border-radius: 25px;
-    color: #fdb801;
+    color: #007b5e;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
@@ -50,7 +50,7 @@
 .feature .feature-box{
     display: flex;
     justify-content: space-between;
-    border-left: 2px solid #fdb901;
+    border-left: 2px solid #007b5e;
 }
 .feature .feature-box .iconset {
     position: relative;
@@ -81,9 +81,9 @@
 .aboutus-section .icon {
     padding:0px;
     font-size:40px;
-    border: 1px solid #fdb801;
+    border: 1px solid #007b5e;
     border-radius: 100px;
-    color: #fdb801;
+    color: #007b5e;
     font-size: 28px;
     height: 70px;
     line-height: 70px;
@@ -140,7 +140,7 @@
         padding: 10px 25px;
         margin-bottom: 10px;
         text-align: center;
-        background: linear-gradient(90deg,#fdba01dc 20%, #fdba01dc);
+        background: linear-gradient(90deg,#007b5e 20%, #007b5e);
         max-width: 400px;
     }
     .feature .feature-box .feature-content{

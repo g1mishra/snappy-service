@@ -69,7 +69,7 @@ export default function TrendingService() {
     },
   };
   return (
-    <Container fluid className='p-0' style={{ background: '#fff' }}>
+    <Container fluid className='p-0' style={{ background: '#fff', overflow: 'hidden' }}>
       <section className='swiper-container text-center'>
         <Title title='Our Popular Service' underline='10em' />
         <div className='contain'>
